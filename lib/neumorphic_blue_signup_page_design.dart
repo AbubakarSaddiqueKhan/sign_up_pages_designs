@@ -3,16 +3,16 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class NeumorphicSignUpPageDesign extends StatefulWidget {
-  const NeumorphicSignUpPageDesign({super.key});
+class NeumorphicBlueSignUpPageDesign extends StatefulWidget {
+  const NeumorphicBlueSignUpPageDesign({super.key});
 
   @override
-  State<NeumorphicSignUpPageDesign> createState() =>
-      _NeumorphicSignUpPageDesignState();
+  State<NeumorphicBlueSignUpPageDesign> createState() =>
+      _NeumorphicBlueSignUpPageDesignState();
 }
 
-class _NeumorphicSignUpPageDesignState
-    extends State<NeumorphicSignUpPageDesign> {
+class _NeumorphicBlueSignUpPageDesignState
+    extends State<NeumorphicBlueSignUpPageDesign> {
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.sizeOf(context);
@@ -167,7 +167,7 @@ class _NeumorphicSignUpPageDesignState
                                 blurRadius: 7,
                                 offset: Offset(-2, -2),
                                 color: Colors.black.withOpacity(0.6),
-                                blurStyle: BlurStyle.inner)
+                                blurStyle: BlurStyle.inner),
                           ]),
                       padding: EdgeInsets.fromLTRB(15, 0, 0, 5),
                       child: TextField(

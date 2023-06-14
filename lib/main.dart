@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signup_pages_designs/neumorphic_blue_signup_page_design.dart';
+import 'package:flutter_signup_pages_designs/neumorphic_yellow_signup_page_design.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[NeumorphicSignUpPageDesign()],
+          children: <Widget>[NeumorphicYellowSignUpPageDesign()],
         ),
       ),
     );
